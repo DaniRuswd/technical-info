@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <title>Bluetooth technology</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header class="nav-header">Bluetooth technology</header>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#history">History</a>
+      <a class="nav-link" href="#implementation">Implementation</a>
+      <a class="nav-link" href="#uses">Uses</a>
+      <a class="nav-link" href="#devices">Devices</a>
+      <a class="nav-link" href="#references">References</a>
+    </nav>
+    <main id="main-doc">
+      <section id="introduction" class="main-section">
+        <header>Introduction</header>
+        <p>
+          Bluetooth is a wireless technology standard used for exchanging data
+          between fixed and mobile devices over short distances using
+          short-wavelength UHF radio waves in the industrial, scientific and
+          medical radio bands, from 2.402 GHz to 2.480 GHz, and building
+          personal area networks (PANs). It was originally conceived as a
+          wireless alternative to RS-232 data cables.
+        </p>
+        <p>
+          Bluetooth is managed by the Bluetooth Special Interest Group (SIG),
+          which has more than 35,000 member companies in the areas of
+          telecommunication, computing, networking, and consumer electronics.
+          The IEEE standardized Bluetooth as IEEE 802.15.1, but no longer
+          maintains the standard. The Bluetooth SIG oversees development of the
+          specification, manages the qualification program, and protects the
+          trademarks. A manufacturer must meet Bluetooth SIG standards to
+          market it as a Bluetooth device. A network of patents apply to the
+          technology, which are licensed to individual qualifying devices. As of
+          2009, Bluetooth integrated circuit chips ship approximately 920
+          million units annually.
+        </p>
+      </section>
+      <section id="history" class="main-section">
+        <header>History</header>
+        <p>
+          The <code>development</code> of the "short-link" <code>radio</code> technology, later named
+          Bluetooth, was initiated in 1989 by Nils Rydbeck, CTO at Ericsson
+          Mobile in Lund, Sweden. The purpose was to develop <code>wireless</code> headsets,
+          according to two inventions by Johan Ullman, SE 8902098-6, issued
+          1989-06-12 and SE 9202239, issued 1992-07-24. Nils Rydbeck tasked Tord
+          Wingren with specifying and Dutchman Jaap Haartsen and Sven Mattisson
+          with developing. Both were working for Ericsson in Lund.In 1990,
+          Jaap Haartsen was nominated by the European Patent Office for the
+          European Inventor Award.From 1997 Örjan Johansson became the
+          project leader and propelled the <code>technology</code> and <code>standardization</code>
+        </p>
+        <p>
+          In 1997, Adalio Sanchez, then head of IBM ThinkPad product R&D,
+          approached Nils Rydbeck about collaborating on integrating a mobile
+          phone into a ThinkPad notebook. The two assigned engineers from
+          Ericsson and IBM to study the idea. The conclusion was that power
+          consumption on cellphone technology at that time was too high to allow
+          viable integration into a notebook and still achieve adequate battery
+          life. Instead, the two companies agreed to integrate Ericsson's
+          short-link technology on both a ThinkPad notebook and an Ericsson
+          phone to accomplish the goal. Since neither IBM ThinkPad notebooks nor
+          Ericsson phones were the market share leaders in their respective
+          markets at that time, Adalio Sanchez and Nils Rydbeck agreed to make
+          the short-link technology an open industry standard to permit each
+          player maximum market access. Ericsson contributed the short-link
+          radio technology, and IBM contributed patents around the logical
+          layer. Adalio Sanchez of IBM then recruited Stephen Nachtsheim of
+          Intel to join and then Intel also recruited Toshiba and Nokia. In May
+          1998, the Bluetooth SIG was launched with IBM and Ericsson as the
+          founding signatories and a total of five members: Ericsson, Intel,
+          Nokia, Toshiba and IBM.
+        </p>
+      </section>
+      <section id="implementation" class="main-section">
+        <header>Implementation</header>
+        <p>
+          Bluetooth operates at frequencies between 2.402 and 2.480 GHz, or
+          2.400 and 2.4835 GHz including guard bands 2 MHz wide at the bottom
+          end and 3.5 MHz wide at the top.This is in the globally
+          unlicensed (but not unregulated) industrial, scientific and medical
+          (ISM) 2.4 GHz short-range radio frequency band. Bluetooth uses a radio
+          technology called frequency-hopping spread spectrum. Bluetooth divides
+          transmitted data into packets, and transmits each packet on one of 79
+          designated Bluetooth channels. Each channel has a bandwidth of 1 MHz.
+          It usually performs 1600 hops per second, with adaptive
+          frequency-hopping (AFH) enabled.Bluetooth Low Energy uses 2 MHz
+          spacing, which accommodates 40 channels.
+        </p>
+        <p>
+          Bluetooth is a packet-based protocol with a master/slave architecture.
+          One master may communicate with up to seven slaves in a piconet. All
+          devices within a given piconet use the clock provided by the master as
+          the base for packet exchange. The master clock ticks with a period of
+          312.5 μs, two clock ticks then make up a slot of 625 µs, and two slots
+          make up a slot pair of 1250 µs. In the simple case of single-slot
+          packets, the master transmits in even slots and receives in odd slots.
+          The slave, conversely, receives in even slots and transmits in odd
+          slots. Packets may be 1, 3 or 5 slots long, but in all cases the
+          master's transmission begins in even slots and the slave's in odd
+          slots.
+        </p>
+      </section>
+      <section id="uses" class="main-section">
+        <header>Uses</header>
+        <p>
+          Bluetooth is a standard wire-replacement communications protocol
+          primarily designed for low power consumption, with a short range based
+          on low-cost transceiver microchips in each device. Because the
+          devices use a radio (broadcast) communications system, they do not
+          have to be in visual line of sight of each other; however, a quasi
+          optical wireless path must be viable.
+        </p>
+        <p>
+          To use Bluetooth wireless technology, a device must be able to
+          interpret certain Bluetooth profiles, which are definitions of
+          possible applications and specify general behaviors that
+          Bluetooth-enabled devices use to communicate with other Bluetooth
+          devices. These profiles include settings to parameterize and to
+          control the communication from the start. Adherence to profiles saves
+          the time for transmitting the parameters anew before the
+          bi-directional link becomes effective. There are a wide range of
+          Bluetooth profiles that describe many different types of applications
+          or use cases for devices.
+        </p>
+        <ul>
+          List of applications
+          <li>
+            Wireless control and communication between a mobile phone and a
+            handsfree headset.
+          </li>
+          <li>
+            Wireless control of and communication between a mobile phone and a
+            Bluetooth compatible car stereo system
+          </li>
+          <li>
+            Wireless control of and communication with iOS and Android device
+            phones, tablets and portable wireless speakers.
+          </li>
+          <li>
+            Wireless streaming of data collected by Bluetooth-enabled fitness
+            devices to phone or PC.
+          </li>
+          <li>
+            Transfer of files, contact details, calendar appointments, and
+            reminders between devices with OBEX.
+          </li>
+        </ul>
+      </section>
+      <section id="devices" class="main-section">
+        <header>Devices</header>
+        <p>
+          Bluetooth exists in numerous products such as telephones, speakers,
+          tablets, media players, robotics systems, laptops, and console gaming
+          equipment as well as some high definition headsets, modems, hearing
+          aids and even watches.Given the variety of devices which use
+          the Bluetooth, coupled with the contemporary deprecation of headphone
+          jacks by Apple, Google, and other companies, and the lack of
+          regulation by the FCC, the technology is prone to interference.
+          Nonetheless Bluetooth is useful when transferring information between
+          two or more devices that are near each other in low-bandwidth
+          situations. Bluetooth is commonly used to transfer sound data with
+          telephones (i.e., with a Bluetooth headset) or byte data with
+          hand-held computers (transferring files).
+        </p>
+        <p>
+          Bluetooth protocols simplify the discovery and setup of services
+          between devices.Bluetooth devices can advertise all of the
+          services they provide.This makes using services easier, because
+          more of the security, network address and permission configuration can
+          be automated than with many other network types.
+        </p>
+      </section>
+      <section id="references" class="main-section">
+        <header>References</header>
+        <p>All the documentation in this page is taken from Wikipedia website</p>
+      </section>
+    </main>
+  </body>
+</html>
